@@ -110,15 +110,6 @@ The exploratory analysis focused on identifying business and fraud patterns acro
 - Fraud by Day of Week
 - Fraud by Hour
 
-### Customer & Banking Analysis
-
-- Sender Age Group
-- Receiver Age Group
-- Same Bank vs Cross Bank Transactions
-- Weekend vs Weekday Activity
-- Amount Categories
-- State-wise Transaction Distribution
-
 ---
 
 ## SQL Analysis
@@ -198,26 +189,23 @@ Transaction-Fraud-Customer-Behavior-Analytics/
 
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── transactions
+│   └── transactions_cleaned.csv
 │
 ├── notebooks/
-│   ├── 00_Project_Planning.ipynb
-│   ├── 01_Data_Understanding.ipynb
-│   ├── 02_Data_Cleaning_Feature_Engineering.ipynb
-│   └── 03_Exploratory_Data_Analysis.ipynb
+│   ├── Project_Planning.ipynb
+│   ├── DataCleaning.ipynb
+│   └── Exploratory_Data_Analysis.ipynb
 │
 ├── sql/
 │   └── transaction_analysis.sql
 │
 ├── dashboard/
-│   └── Transaction_Analytics.pbix
+│   └── fraud_analysis.pbix
 │
 ├── images/
 │
-├── README.md
-│
-└── requirements.txt
+└──README.md
 ```
 
 ---
