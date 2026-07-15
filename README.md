@@ -214,15 +214,16 @@ Transaction-Fraud-Customer-Behavior-Analytics/
 
 ### Executive Overview
 
-*(Add Screenshot)*
+<img src="Images/Executive.png" alt="Executive Dashboard">
+
 
 ### Fraud Analysis
 
-*(Add Screenshot)*
+<img src="Images/Fraud.png" alt="Fraud Dashboard">
 
 ### Customer & Banking Insights
 
-*(Add Screenshot)*
+<img src="Images/Customer%20&%20Banking.png" alt="Executive Dashboard">
 
 ---
 
@@ -234,12 +235,3 @@ Transaction-Fraud-Customer-Behavior-Analytics/
 - Automate periodic reporting.
 
 ---
-
-## Author
-
-**Aditya Kumar Mishra**
-
-Data Analyst
-
-- LinkedIn: *(Add Profile Link)*
-- GitHub: *(Add GitHub Profile)*
