@@ -1,0 +1,9 @@
+select `transaction type`,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by `transaction type` order by total_transaction desc;
+select merchant_category,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by merchant_category order by total_transaction desc;
+select sender_bank,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by sender_bank order by total_transaction desc;
+select receiver_bank,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by receiver_bank order by total_transaction desc;
+select device_type,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by device_type order by total_transaction desc;
+select sender_state,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by sender_state order by total_transaction desc;
+select hour_of_day,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by hour_of_day order by total_transaction desc;
+select day_of_week,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by day_of_week order by total_transaction desc;
+select amount_category,count(*) as total_transaction,sum(`amount (INR)`) as total_amount from transactions where fraud_flag = 1 group by amount_category order by total_transaction desc;
